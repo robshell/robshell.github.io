@@ -1,3 +1,3 @@
-![Test Logo](https://www.google.com/images/srpr/logo11w.png)
+![Portfolio](./img/portfolio.png)
 
 test
