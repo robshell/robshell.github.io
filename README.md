@@ -1,3 +1,3 @@
 ![Portfolio](./img/portfolio2.png)
 
-test
+Temporary resting spot for my viz work.
