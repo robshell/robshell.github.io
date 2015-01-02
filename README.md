@@ -1,3 +1,3 @@
-![Portfolio](./img/portfolio.png)
+![Portfolio](./img/portfolio2.png)
 
 test
