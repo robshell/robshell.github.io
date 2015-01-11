@@ -166,10 +166,11 @@
 						<div class="feature-holder"><img src="img/dummies/620x300BEAChord.gif" alt="Image" class="attachment-post-thumbnail" /></div>
 						<div class="padding">
 							<h3 class="p-title">BEA 10.0 SV-6 Chord Diagram</h3>
-							<p>SV-6 (DoDAF) view of DoD Business Enterprise Architecture 10.0 systems. An SV-6 shows the Information Exchanges (IEs) between automated systems. In this chord diagram, systems are aggregated by Core Business Mission and represented as arcs placed along the circumference of a circle. IEs are represented as quadratic Bézier curves and are sized based on the number of IEs.  Built using d3.js with colors from colorbrewer.</p>
+							<p>Chord diagram of United States Department of Defense (DoD) Business Enterprise Architecture 10.0 systems.  It represents a DoD Architecture Framework  Systems View (SV). An SV-6 shows the Information Exchanges (IEs) between automated systems. Chord diagrams are useful for visualizing the relationships between groups of entities.</p>
+														
+							<p><span class="pullquote-right">At-a-glance view of which CBM systems are communicating with each other and the volume of these communications</span> In this diagram, systems are aggregated by Core Business Mission (CBM) and represented as arcs positioned along the circumference of a circle.  These aggregations (System Nodes) are then color coded (see legend for CBM definitions).  The arc length of each System Node encodes the total number of incoming and outgoing IEs.  IEs are represented as quadratic Bézier curves and are sized based on the number of IEs.  The curves connect two System Nodes unless IEs are internal in which case the curve connects back to the original System Node.  By hovering over a curve a tooltip provides the names of the System Nodes exchanging information and the number of such exchanges.  By hovering over the System Node in the legend a user can view the System Node description, which appears just below the legend. </p>
 							
-							
-							<p><span class="pullquote-right">This text is important that's why its pulled and quoted!</span> Chord diagrams are useful for visualizing the relationships between groups of entities.   </p>
+							<p>Built using d3.js with colors from colorbrewer.  The Business Enterprise Architecture is released annually by the Office of the Deputy Chief Management Officer.  Official Releases are found <a href="http://dcmo.defense.gov/products-and-services/business-enterprise-architecture/" alt="link to BEA">here</a>.  </p>
 							
 							<!-- Buttons -->
 							<div class="buttons-holder">
